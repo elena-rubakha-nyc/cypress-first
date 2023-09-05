@@ -1,0 +1,30 @@
+{
+  "name": "cypress-1st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:dashboard": "npx cypress run--record",
+    "cy:run:first": "npx cypress run --spec 'cypress/e2e/1-getting-started/first.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elena-rubakha-nyc/cypress-fisrt.git"
+  },
+  "keywords": [
+    "cypress",
+    "first",
+    "project"
+  ],
+  "author": "elena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elena-rubakha-nyc/cypress-st/issues"
+  },
+  "homepage": "https://github.com/elena-rubakha-nyc/cypress-st#readme",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}
